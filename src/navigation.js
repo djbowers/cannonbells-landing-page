@@ -122,12 +122,12 @@ export const headerData = {
   actions: [
     {
       text: 'Log In',
-      href: 'https://app.bellskill.com',
+      href: 'https://app.cannonbells.com',
       variant: 'ghost',
     },
     {
       text: 'Sign Up',
-      href: 'https://app.bellskill.com',
+      href: 'https://app.cannonbells.com',
       variant: 'primary',
     },
   ],

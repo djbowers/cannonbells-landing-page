@@ -1,6 +1,6 @@
 site:
-  name: BellSkill
-  site: 'https://www.bellskill.com'
+  name: Cannonbells
+  site: 'https://www.cannonbells.com'
   base: '/'
   trailingSlash: false
 
@@ -9,14 +9,14 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: BellSkill
-    template: '%s — BellSkill'
+    default: Cannonbells
+    template: '%s — Cannonbells'
   description: ''
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: BellSkill
+    site_name: Cannonbells
     images:
       - url: '~/assets/images/default.png'
         width: 1200

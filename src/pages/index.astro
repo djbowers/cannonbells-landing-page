@@ -1,21 +1,21 @@
 ---
-import Layout from '~/layouts/PageLayout.astro';
+import Layout from '~/layouts/PageLayout.astro'
 
-import Hero from '~/components/widgets/Hero.astro';
+import Hero from '~/components/widgets/Hero.astro'
 // import Note from '~/components/widgets/Note.astro';
-import Features from '~/components/widgets/Features.astro';
+import Features from '~/components/widgets/Features.astro'
 // import Features2 from '~/components/widgets/Features2.astro';
-import Steps from '~/components/widgets/Steps.astro';
-import Content from '~/components/widgets/Content.astro';
+import Steps from '~/components/widgets/Steps.astro'
+import Content from '~/components/widgets/Content.astro'
 // import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 // import FAQs from '~/components/widgets/FAQs.astro';
 // import Stats from '~/components/widgets/Stats.astro';
-import CallToAction from '~/components/widgets/CallToAction.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro'
 
 const metadata = {
-  title: 'BellSkill — Build a better body with kettlebells',
+  title: 'Cannonbells — Build a better body with kettlebells',
   ignoreTitleTemplate: true,
-};
+}
 ---
 
 <Layout metadata={metadata}>
@@ -26,13 +26,13 @@ const metadata = {
       {
         variant: 'primary',
         text: 'Sign up for free',
-        href: 'https://app.bellskill.com',
+        href: 'https://app.cannonbells.com',
       },
       { text: 'Learn more', href: '#features' },
     ]}
     image={{
       src: '~/assets/images/competition-bells.png',
-      alt: 'BellSkill Hero Image',
+      alt: 'Cannonbells Hero Image',
     }}
   >
     <Fragment slot="title"> Stick to your program.<br /> Track your reps. </Fragment>
@@ -51,11 +51,11 @@ const metadata = {
   <!-- <Content
     isReversed
     tagline="Inside the app"
-    title="Here's what BellSkill brings to the table:"
+    title="Here's what Cannonbells brings to the table:"
     items={[
       {
         title: 'Track Workouts at Every Level:',
-        description: "Whether you're a complete kettlebell beginner or a seasoned expert, BellSkill has you covered.",
+        description: "Whether you're a complete kettlebell beginner or a seasoned expert, Cannonbells has you covered.",
       },
       {
         title: 'Track Your Progress, Crush Your Goals:',
@@ -153,7 +153,7 @@ const metadata = {
   <Features
     id="features"
     tagline="Features"
-    title="What sets BellSkill apart..."
+    title="What sets Cannonbells apart..."
     subtitle="The first app built for autoregulated kettlebell programs."
     items={[
       {
@@ -170,7 +170,8 @@ const metadata = {
       },
       {
         title: 'Rep Ladders',
-        description: 'Tackle heavier weights using rep ladders, which allow you to get in more high quality reps.',
+        description:
+          'Tackle heavier weights using rep ladders, which allow you to get in more high quality reps.',
         icon: 'tabler:ladder',
       },
       {
@@ -187,7 +188,8 @@ const metadata = {
       },
       {
         title: 'Repeat Workouts',
-        description: 'Repeat your favorite workouts and beat your previous volume to continue making progress.',
+        description:
+          'Repeat your favorite workouts and beat your previous volume to continue making progress.',
         icon: 'tabler:repeat',
       },
     ]}
@@ -196,17 +198,18 @@ const metadata = {
   <!-- Steps Widget ****************** -->
 
   <Steps
-    title="Start tracking your kettlebell workouts today with BellSkill."
+    title="Start tracking your kettlebell workouts today with Cannonbells."
     items={[
       {
         title: 'Step 1: <span class="font-medium">Configure & Start Your Workout</em>',
-        description: "Utilize the app's features to tailor your workout to align with your goals and preferences.",
+        description:
+          "Utilize the app's features to tailor your workout to align with your goals and preferences.",
         icon: 'tabler:adjustments',
       },
       {
         title: 'Step 2: <span class="font-medium">Track Your Progress</span>',
         description:
-          "Track your reps, volume, and perceived exertion levels after each workout to gain valuable insights into your progress and areas for improvement.",
+          'Track your reps, volume, and perceived exertion levels after each workout to gain valuable insights into your progress and areas for improvement.',
         icon: 'tabler:activity',
       },
       {
@@ -218,7 +221,7 @@ const metadata = {
       {
         title: 'Step 4: <span class="font-medium">Stay Consistent</span>',
         description:
-          'Consistency is key to achieving lasting results. Commit to regular workouts using BellSkill, and aim to progressively challenge yourself by gradually increasing intensity, volume, or difficulty as your fitness improves.',
+          'Consistency is key to achieving lasting results. Commit to regular workouts using Cannonbells, and aim to progressively challenge yourself by gradually increasing intensity, volume, or difficulty as your fitness improves.',
         icon: 'tabler:award',
       },
     ]}
@@ -361,17 +364,17 @@ const metadata = {
       {
         variant: 'primary',
         text: 'Sign up for free',
-        href: 'https://app.bellskill.com',
+        href: 'https://app.cannonbells.com',
       },
     ]}
   >
-    <Fragment slot="title"> BellSkill Training App</Fragment>
+    <Fragment slot="title"> Cannonbells Training App</Fragment>
 
     <Fragment slot="tagline"> Kettlebell training made easy. </Fragment>
 
     <Fragment slot="subtitle"
-      >Don't let another day pass you by without unlocking your true potential. Join the BellSkill revolution today and
-      embark on a journey of transformation, strength, and self-discovery.
+      >Don't let another day pass you by without unlocking your true potential. Join the Cannonbells
+      revolution today and embark on a journey of transformation, strength, and self-discovery.
     </Fragment>
   </CallToAction>
 </Layout>
